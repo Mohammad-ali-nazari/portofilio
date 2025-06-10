@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: "Vazir", sans-serif;
+    background-color: #121212;
+    color: white;
+    direction: rtl;
+  }
+  
+  header {
+    text-align: center;
+    padding: 30px;
+    background-color: #1a1a1a;
+  }
+  
+  header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 3px solid crimson;
+  }
+  
+  h1 {
+    margin-top: 15px;
+    font-size: 28px;
+    color: crimson;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #skillsChart {
+    max-width: 400px;
+    margin: 30px auto;
+  }
+  
+  .contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact li {
+    margin: 10px 0;
+  }
+  
+  a {
+    color: crimson;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .resume-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .resume-button:hover {
+    background-color: #ff3d3d;
+  }
+  .charts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .chart-box {
+    width: 150px;
+    text-align: center;
+    color: white;
+  }
+  
+  .chart-box canvas {
+    width: 100%;
+    height: auto;
+  }
+    
